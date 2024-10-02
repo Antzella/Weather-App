@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(249, 247, 254);
+}
+
+.weather {
+  top: 40px;
+  left: 50px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 600px;
+}
+
+.weather,
+main p,
+.search-button,
+.search-input,
+h1,
+.current-temperature,
+.celsius {
+  position: relative;
+}
+
+.search-input,
+.search-button {
+  font-size: 16px;
+}
+.search-input {
+  top: 20px;
+  right: -15px;
+  background: #f9f7fe;
+  color: rgb(165, 161, 178);
+  font-weight: 100;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  width: 400px;
+  border-radius: 10px;
+}
+.search-button {
+  right: -20px;
+  bottom: -20px;
+  border: none;
+  background-color: rgb(153, 117, 243);
+  padding: 23px 15px;
+  line-height: 0;
+  height: 30px;
+  width: 90px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: all 100ms ease;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  background-color: rgb(94, 65, 167);
+}
+
+h1 {
+  color: #272142;
+  margin-top: 50px;
+  font-size: 38px;
+  font-weight: 700;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p strong {
+  color: rgb(246, 82, 130);
+}
+
+.current-temperature {
+  color: #212121;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 36px;
+  line-height: 1;
+  top: -70px;
+  right: -300px;
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-icon {
+  font-size: 50px;
+  position: absolute;
+  top: 165px;
+  right: 310px;
+}
+
+.celsius {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  top: -108px;
+  right: -300px;
+  font-family: "Roboto", sans-serif;
+}
+
+main p {
+  color: #27214266;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  left: 13px;
+}
+
+.weather-footer {
+  color: #27214266;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: rgb(153, 117, 243);
+}
